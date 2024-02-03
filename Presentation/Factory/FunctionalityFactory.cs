@@ -5,7 +5,7 @@ namespace Presentation.Factory
 {
     public static class FunctionalityFactory
     {
-        public static IFunctionality GetFunctionality(char agent)
+        public static IFunctionality GetFunctionality()
         {
             Console.WriteLine("Seleccione la funcionalidad: ");
             Console.WriteLine("1: Generador de escaleras");

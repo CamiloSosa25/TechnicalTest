@@ -16,7 +16,7 @@ namespace Presentation
             char mainAgent = char.Parse(Console.ReadLine()!);
             try
             {
-                var functionality = FunctionalityFactory.GetFunctionality(mainAgent);
+                var functionality = FunctionalityFactory.GetFunctionality();
                 functionality.Execute(mainAgent);
             }
             catch (ArgumentException ex)
