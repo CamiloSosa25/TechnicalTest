@@ -29,6 +29,10 @@ dotnet build
 
 ## Uso
 
+```bash
+dotnet run
+```
+
 **Funcionalidades**
 1. Obtener Media
   - **Para Agente A (Media Aritmética):**
